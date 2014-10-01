@@ -67,11 +67,8 @@ loglevel 3
     chmod 0660 /sys/fs/cgroup/memory/sw/tasks
 
     mkdir /system
-    mkdir /raw-system
     mkdir /data 0771 system system
-    mkdir /raw-data 0771 system system
     mkdir /cache 0771 system cache
-    mkdir /raw-cache 0771 system cache
     mkdir /config 0500 root root
 
     # See storage config details at http://source.android.com/tech/storage/
